@@ -1,26 +1,21 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/cupertino.dart';
+import 'my_home_page.dart';
 
-
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({Key key}) : super(key: key);
-
-
-  @override
-  _MyHomePageState createState() => _MyHomePageState();
+void main() {
+  runApp(MyApp());
 }
 
-class _MyHomePageState extends State<MyHomePage> {
+class MyApp extends StatelessWidget {
+  //This widget is the root of the application
   @override
   Widget build(BuildContext context) {
-    return MaterialApp(
+    return  MaterialApp(
       title: 'Flutter Audio Reading',
+
       theme: ThemeData(
 
         primarySwatch: Colors.blue,
       ),
-      home: MyHomePage(),
     );
   }
 }
