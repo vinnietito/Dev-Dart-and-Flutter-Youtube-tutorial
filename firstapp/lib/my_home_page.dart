@@ -18,6 +18,7 @@ class  _MyHomePageState extends State<MyHomePage> {
                 body: Column(
                   children: [
                     Container(
+                      margin: const EdgeInsets.only(left: 20, right:20),
                       child: Row(
                         mainAxisAlignment: MainAxisAlignment.spaceBetween,
                         children: [
@@ -27,6 +28,15 @@ class  _MyHomePageState extends State<MyHomePage> {
                               Icon(Icons.search),
                               SizedBox(width: 10,)
                               Icon(Icons.notifications),
+                            ],
+                          )
+                          Row(
+                            children: [
+                              Container(
+                                SizedBox(height: 20,),
+                                margin: const EdgeInsets.only(left: 20),
+                                child: Text("Popular Books", style: TextStyle(fontSize: 30)),
+                              )
                             ],
                           )
                         ],
