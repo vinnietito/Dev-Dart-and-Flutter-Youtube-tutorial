@@ -1,5 +1,9 @@
-name: firstapp
-description: A Flutter app with EBook UI and Audio Player
+name: flutter_ebook_app
+description: A Flutter EBook App UI With Audio Player
+
+# Specify the environment SDK version constraint
+environment:
+  sdk: ">=2.18.0 <3.0.0"  # For Dart SDK versions
 
 dependencies:
   flutter:
@@ -12,6 +16,5 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
   assets:
-    - assets/img/facebook.JPEG
+    - assets/img/menu.JPEG  # Corrected to match your file name
