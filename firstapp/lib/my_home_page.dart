@@ -24,7 +24,7 @@ class _MyHomePageState extends State<MyHomePage> {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   const ImageIcon(
-                    AssetImage("img/menu.png"), // Ensure the asset is added in pubspec.yaml
+                    AssetImage("assets/img/menu.png"), // Ensure the asset is added in pubspec.yaml
                     size: 24,
                     color: Colors.black,
                   ),
