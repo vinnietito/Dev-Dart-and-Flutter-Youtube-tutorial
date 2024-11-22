@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import "package:audio/app_colors.dart" as AppColors;
+import 'package:audioplayers/audioplayers.dart' as AppColors;
 
 class MyHomePage extends StatefulWidget {
   const MyHomePage({Key? key}) : super(key: key);
