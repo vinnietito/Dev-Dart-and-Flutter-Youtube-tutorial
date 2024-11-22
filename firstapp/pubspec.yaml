@@ -17,4 +17,4 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/img/menu.JPEG  # Corrected to match your file name
+    - assets/img/menu.JPEG
