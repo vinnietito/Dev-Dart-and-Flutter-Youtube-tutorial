@@ -17,11 +17,23 @@ class  _MyHomePageState extends State<MyHomePage> {
               child: Scaffold(
                 body: Column(
                   children: [
-                    Row(
-                      children: [
-                        ImageIcon(AssetImage("img/menu.png"))
-                      ],
+                    Container(
+                      child: Row(
+                        mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                        children: [
+                          ImageIcon(AssetImage("img/menu.png"), size: 24, color: Colors.black,)
+                          Row(
+                            children: [
+                              Icon(Icons.search),
+                              SizedBox(width: 10,)
+                              Icon(Icons.notifications),
+                            ],
+                          )
+                        ],
+                      ),
+
                     )
+
                   ],
                 ),
               ),
