@@ -1,7 +1,6 @@
-import 'dart:ui';
+import 'package:flutter/material.dart';
 
 final Color background = Color(0xFFfafafc);
-final Color sliverBackground = Color(0xFFfafafc);
 final Color menu1Color = Color(0xFFf9d263);
 final Color menu2Color = Color(0xFFf2603d);
 final Color menu3Color = Color(0xFF04abe6);
