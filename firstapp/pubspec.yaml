@@ -1,5 +1,5 @@
-name: flutter_ebook_app
-description: A Flutter EBook App UI With Audio Player
+name: firstapp
+description: A Flutter app with EBook UI and Audio Player
 
 dependencies:
   flutter:
@@ -11,5 +11,7 @@ dev_dependencies:
     sdk: flutter
 
 flutter:
+  uses-material-design: true
+
   assets:
-    - assets/img/menu.png
+    - assets/img/facebook.JPEG
